@@ -1,0 +1,10 @@
+extensions:
+  dibi: Dibi\Bridges\Nette\DibiExtension22
+
+dibi:
+  host: localhost
+  username: root
+  password:
+  database: food
+  charset: utf8
+  lazy: TRUE

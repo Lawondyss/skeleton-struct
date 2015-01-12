@@ -1,0 +1,12 @@
+extensions:
+  webloader: WebLoader\Nette\Extension
+
+webloader:
+  css:
+    screen:
+      files:
+        - %assetsDir%/css/screen.css
+
+    print:
+      files:
+        - %assetsDir%/css/print.css

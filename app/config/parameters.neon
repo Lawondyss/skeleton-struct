@@ -1,0 +1,12 @@
+parameters:
+  assetsDir: %appDir%/../assets
+  app:
+    title: Project name
+    description: Description of project
+    keywords:
+      - project
+      - keywords
+    domain: food.dev
+    email:
+      noreply: noreply@%app.domain%
+    tokenExpire: 86400 # 1 day

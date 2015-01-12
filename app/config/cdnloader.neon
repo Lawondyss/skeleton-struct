@@ -1,0 +1,32 @@
+extensions:
+  cdnloader: CDNLoader\Extension
+
+cdnloader:
+  outputDir: cdn
+  libraries:
+    -
+      name: jquery
+      version: 2.1.1
+      files:
+        - jquery.min.js
+        - jquery.min.map
+    -
+      name: twitter-bootstrap
+      version: 3.2.0
+      files:
+        - fonts/glyphicons-halflings-regular.eot
+        - fonts/glyphicons-halflings-regular.svg
+        - fonts/glyphicons-halflings-regular.ttf
+        - fonts/glyphicons-halflings-regular.woff
+        - css/bootstrap.css
+        - css/bootstrap.css.map
+        - js/bootstrap.min.js
+    -
+      name: bootstrap-select
+      version: 1.6.2
+      files:
+        - css/bootstrap-select.min.css
+        - css/bootstrap-select.css.map
+        - js/bootstrap-select.min.js
+        - js/bootstrap-select.js.map
+        - js/i18n/defaults-cs_CZ.min.js

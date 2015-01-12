@@ -1,0 +1,14 @@
+{
+  "require": {
+    "php": ">= 5.4",
+    "dibi/dibi": "~2.2",
+    "nette/nette": "~2.2",
+    "o5/grido": "dev-master",
+    "lawondyss/cdnloader": "dev-master",
+    "janmarek/webloader": "dev-master",
+    "kdyby/autowired": "1.2.0"
+  },
+  "require-dev": {
+    "nette/tester": "~1.3"
+  }
+}
